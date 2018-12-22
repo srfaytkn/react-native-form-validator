@@ -11,11 +11,16 @@ export default class ValidationForm extends React.PureComponent {
   }
 
   validate() {
-    const { onSubmit } = this.props;
+    const { onSubmit, onError } = this.props;
     const isValid = this.validationComponents.every(component => component.isValid(rules));
 
     if (isValid) {
       onSubmit();
+      return;
+    }
+
+    if (onError) {
+      onError();
     }
   }
 

@@ -10,11 +10,14 @@ export default class ValidationForm extends React.PureComponent {
     this.attachToForm = this.attachToForm.bind(this);
   }
 
+  isValid() {
+    return this.validationComponents.every(component => component.isValid(rules));
+  }
+
   validate() {
     const { onSubmit, onError } = this.props;
-    const isValid = this.validationComponents.every(component => component.isValid(rules));
 
-    if (isValid) {
+    if (this.isValid()) {
       onSubmit();
       return;
     }
@@ -52,4 +55,5 @@ ValidationForm.childContextTypes = {
 
 ValidationForm.propTypes = {
   onSubmit: PropTypes.func.isRequired,
+  onError: PropTypes.func,
 };

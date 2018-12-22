@@ -78,10 +78,7 @@ render() {
         />
         <ValidationComponent
           component={
-            <RkTextInput
-              rkType="bordered"
-              multiline={true}
-              numberOfLines={4}
+            <TextInput
               style={{ width: "100%" }}
               placeholder="You can type a description"
               value={description}

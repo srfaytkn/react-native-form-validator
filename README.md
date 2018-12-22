@@ -1,8 +1,14 @@
 # react-native-form-validator
 
+[![npm version](https://badge.fury.io/js/react-native-validation.svg)](https://badge.fury.io/js/react-native-validation)
+
 A simple validation library for react native
 
-Default validation rules:
+## Installation
+
+Run: `$ npm i react-native-validation --save`
+
+### Default validation rules:
 + matchRegexp
 + isEmail
 + isEmpty

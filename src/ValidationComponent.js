@@ -29,7 +29,7 @@ export default class ValidationComponent extends React.PureComponent {
     const value = component.props.value;
     return validators.every((validator, index) => {
       const args = validator.split(":");
-      const rule = args[0];
+      const rule = args.shift();
       const isValid = rules[rule].apply(this, [value, ...args]);
       if (!isValid) {
         this.setState({ errorMessage: errorMessages[index] });

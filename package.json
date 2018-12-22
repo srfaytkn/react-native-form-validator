@@ -1,5 +1,5 @@
 {
-  "name": "react-native-validator",
+  "name": "react-native-validation",
   "version": "0.0.1",
   "description": "A simple validation library for react native",
   "main": "src/index.js",
@@ -13,6 +13,8 @@
   "keywords": [
     "react-native",
     "validator",
+    "validation",
+    "form",
     "formValidation"
   ],
   "author": "srfaytkn",

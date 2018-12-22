@@ -1,0 +1,24 @@
+{
+  "name": "react-native-validator",
+  "version": "0.0.1",
+  "description": "A simple validation library for react native",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srfaytkn/react-native-form-validator.git"
+  },
+  "keywords": [
+    "react-native",
+    "validatior",
+    "formValidation"
+  ],
+  "author": "srfaytkn",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/srfaytkn/react-native-form-validator/issues"
+  },
+  "homepage": "https://github.com/srfaytkn/react-native-form-validator#readme"
+}

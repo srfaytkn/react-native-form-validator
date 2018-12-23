@@ -148,7 +148,8 @@ constructor(props, context) {
 | validators        | true     | array    |               | Array of validators.                                                                   |
 | errorMessages     | true     | array    |               | Array of error messages. Must be in the same order as validation                       |
 | errorMessageStyle | false    | object   |               | Error textComponent style                                                              |
-| component         | true     | object   |               | Input component(Must include value prop)                                                                        |
+| component         | true     | object   |               | Input component(Must include value prop)                                               |
+| style             | false    | object   |               | Container style props                                                                  |
 
 + Methods
 

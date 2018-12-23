@@ -137,7 +137,7 @@ constructor(props, context) {
 | Name             | Params | Return | Descriptipon                                       |
 |------------------|--------|--------|----------------------------------------------------|
 | validate         |        |        | Check form is valid                                |
-| isVaild          |        |  bool  | return current validation state                    |
+| isValid          |        |  bool  | return current validation state                    |
 
 #### ValidationComponent
 

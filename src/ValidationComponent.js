@@ -39,10 +39,10 @@ export default class ValidationComponent extends React.PureComponent {
   }
 
   render() {
-    const { component, errorMessageStyle } = this.props;
+    const { component, style, errorMessageStyle } = this.props;
     const { errorMessage } = this.state;
     return (
-      <View style={{ flexDirection: "column" }}>
+      <View style={[{ flexDirection: "column" }, style]}>
         {component}
         {errorMessage && (
           <View>
@@ -67,4 +67,9 @@ ValidationComponent.propTypes = {
   validators: PropTypes.array,
   errorMessages: PropTypes.array,
   errorMessageStyle: PropTypes.object,
+  style: PropTypes.object,
+};
+
+ValidationComponent.defaultProps = {
+  style: {},
 };

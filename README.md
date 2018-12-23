@@ -8,7 +8,7 @@ A simple validation library for react native
 
 Run: `$ npm i react-native-validation --save`
 
-### Default validation rules:
+### Validators:
 + matchRegexp
 + isEmail
 + isEmpty
@@ -148,7 +148,7 @@ constructor(props, context) {
 | validators        | true     | array    |               | Array of validators.                                                                   |
 | errorMessages     | true     | array    |               | Array of error messages. Must be in the same order as validation                       |
 | errorMessageStyle | false    | object   |               | Error textComponent style                                                              |
-| component         | true     | object   |               | Input component                                                                        |
+| component         | true     | object   |               | Input component(Must include value prop)                                                                        |
 
 + Methods
 

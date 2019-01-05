@@ -23,7 +23,7 @@ const validations = {
 
   isNumber: value => validations.matchRegexp(value, /^-?[0-9]\d*(\d+)?$/i),
 
-  isFloat: value => validations.matchRegexp(value, /^(?:[1-9]\d*|0)?(?:\.\d+)?$/i),
+  isFloat: value => validations.matchRegexp(value, /^[+-]?([0-9]*[.])?[0-9]+$/i),
 
   isPositive: value => {
     if (validations.isExisty(value)) {

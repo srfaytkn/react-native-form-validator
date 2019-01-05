@@ -13,17 +13,16 @@ Run: `$ npm i react-native-validation --save`
 + isEmail
 + isEmpty
 + required
-+ trim
 + isNumber
 + isFloat
 + isPositive
-+ minNumber
 + maxNumber
-+ minFloat
++ minNumber
 + maxFloat
++ minFloat
++ isString
 + minStringLength
 + maxStringLength
-+ isString
 
 Example Component:
 ````javascript

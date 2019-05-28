@@ -1,6 +1,6 @@
 # react-native-form-validator
 
-[![npm version](https://badge.fury.io/js/react-native-validation.svg)](https://badge.fury.io/js/react-native-validation)
+[![npm version](https://badge.fury.io/js/react-native-youtube-sdk.svg)](https://badge.fury.io/js/react-native-youtube-sdk)
 
 A simple validation library for react native
 

@@ -50,7 +50,7 @@ ValidationForm.addValidationRule = (name, callback) => {
 };
 
 ValidationForm.childContextTypes = {
-  form: PropTypes.element.object,
+  form: PropTypes.object,
 };
 
 ValidationForm.propTypes = {
